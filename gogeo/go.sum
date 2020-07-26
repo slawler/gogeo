@@ -1,0 +1,4 @@
+github.com/gorilla/mux v1.7.4/go.mod h1:DVbg23sWSpFRCP0SfiEN6jmj59UnW/n46BH5rLB71So=
+github.com/lukeroth/gdal v0.0.0-20200603180320-4c5dda23594f/go.mod h1:LRNA37mpRTTkfgrPHX1USpGIzndwMyfRY4cyE69RArA=
+github.com/slawler/gdal v0.0.0-20200719105710-a3059a4c7414 h1:XZVYYsq+g9n06avkGQO8zyZeqLw7M/q8I77a9MYXfIs=
+github.com/slawler/gdal v0.0.0-20200719105710-a3059a4c7414/go.mod h1:E/Nqcs+cLUIXTWLBq/ylQB3a8Gop8WIJPl52BfIrnuk=

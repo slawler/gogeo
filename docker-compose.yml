@@ -1,0 +1,8 @@
+version: '3.1'
+services:
+  gogeo:
+      container_name: gogeo
+      build: 
+        context: ./gogeo/
+      volumes:
+        - ./gogeo:/usr/local/go/src/gogeo
