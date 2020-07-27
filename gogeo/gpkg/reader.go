@@ -32,6 +32,11 @@ func GetLayerNames(ds *gdal.DataSource) []string {
 	return layers
 }
 
+// GetLayer returns a gdal layer object
+func GetLayer(layerName string, ds *gdal.DataSource) gdal.Layer {
+	return ds.LayerByName(layerName)
+}
+
 // GetFeatureFields avaliable in open gpkg
 // TODO: Map fieldTypes to names and save as struct for reference
 func GetFeatureFields(layerName string, ds *gdal.DataSource) []GoLayerField {
